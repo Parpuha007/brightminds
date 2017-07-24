@@ -1,0 +1,52 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1600px) {
+	.feature img {
+		margin-top: 5%;
+		right: 0;
+	}
+	.description .shop_about {
+		display: none;
+	}
+	.description .shop_features {
+		width: 100%;
+	}
+}
+@media only screen and (max-width : 1366px) {
+	.feature img {
+		margin-top: 0;
+	}
+	.description .shop_about h2 {
+		font-size: 30px;
+	}
+	.services .services-pic {
+		display: none;
+	}
+	.services .services-content {
+		width: 100%;
+	}
+	.services .services-content .row .row-item {
+		margin-right: 2%;
+	}
+	.services .services-content .row .row-item p {
+		font-size: 20px;
+	}
+	.services .services-content .row .row-item h3 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+
